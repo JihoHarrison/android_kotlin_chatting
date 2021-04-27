@@ -45,10 +45,10 @@ class MainActivity : AppCompatActivity() {
                         db.document(uid)
                             .set(user)
                             .addOnSuccessListener {
-                                Log.d(TAG, "데이터베이스 성공")
+                                Log.d(TAG, "데이터베이스 저장 성공")
                             }
                             .addOnFailureListener {
-                                Log.d(TAG, "데이터베이스 실패")
+                                Log.d(TAG, "데이터베이스 저장 오류")
                             }
                         val intent = Intent(this, ChatListActivity::class.java)
                         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
