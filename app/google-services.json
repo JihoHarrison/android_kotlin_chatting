@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "225441950059",
+    "firebase_url": "https://chatvideo-4187c.firebaseio.com",
+    "project_id": "chatvideo-4187c",
+    "storage_bucket": "chatvideo-4187c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225441950059:android:520b6c1016e3417c91842e",
+        "android_client_info": {
+          "package_name": "com.example.chatting_video2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225441950059-rmtnav96o4m8ueksko2q3ofi4f00f1lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CXK2tHdhygAtGGzx00kRtlqtig_24Mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225441950059-rmtnav96o4m8ueksko2q3ofi4f00f1lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
